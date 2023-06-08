@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+
+<div class="p-5 bg-white"></div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src=  "{% static "img/cyber-security.png" %}"      class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Seguridad de red</b></h5>
+        <p class="card-text">Firewalls (Pfsense, Iptables, Microsoft Defender), Segmentaciónd de red, (DMZ), Control de acceso, Sistemas de detección y prevención de intrusiones (IDS, IPS - Snort, Suricata), Eventos e información de red, Monitorización, Tuneles, Proxys, Redireccionamiento, Simulación y Prevención de ataques</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+	    <img src="{% static "img/hacking.png" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Hacking Ético</b></h5>
+        <p class="card-text">Busqueda de vulnerabilidades y fallas de seguridad, cubriendo todo el entorno, Redes, Cloud, Sistemas, Endpoints, Usuarios</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="{% static "img/pentest.png" %}"class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Pentesting</b></h5>
+        <p class="card-text">Reconocimiento, Armamento(Herramientas necesarias para la prueba), Envío (Ingeniería social), Explotación, Escalada de privilegios, Movimiento lateral, Ofuscación, Persistencia y Acciones en el Objetivo</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src= "{% static "img/cyber-attack.png" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Respuesta a Incidentes</b></h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-2 bg-white"></div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src= "{% static "img/a1.jpg" %}"  class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Monitorización y Caza de Amenazas</b></h5>
+        <p class="card-text">Investigación (Inteligencia de Amenazas Mitre, OTX...), Simulación (Splunk Attack Range, Atomic Red Team...)Monitorización de eventos, registros (Splunk Search, Osquery, Sysinternals, Sysmon, Powershell, IDS, firewalls(Iptables, Pfsense), Whireshark.) Detección, Programación de alertas, Respuesta a incidentes, analisis forense de la amenaza, Control y erradicación y su posible propagación </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col">
+    <div class="card">
+      <img src= "{% static "img/fingerprint.png" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Análisis forense</b></h5>
+        <p class="card-text">Análisis forense con la herramienta Autopsy, Análisis forense de memoria con la herramienta Volatility</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src= "{% static "img/webhack.png" %}"     class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Pentesting, auditoría Web</b></h5>
+        <p class="card-text">Owasp Zap, Burp Suite, Nikto y otras herramientas y scripts personalizados para el análisis de vulnerabilidades y extracción de información, Análisis de vulnerabilidades manual con la referencia del Top 10 de OWASP</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="{% static "img/programming.png" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Programación y Scripting</b></h5>
+        <p class="card-text">C (Punteros, estructuras, manejo de bits, gestión de memoria) Python (Scripting, Web-Django, Programación de APIs) C# (.NET)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-2 bg-white"></div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="{% static "img/intelligence.png" %}"   class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Inteligencia de amenzas</b></h5>
+	      <p class="card-text">Mitre ATT&CK, Mitre attack-navigator, AlienVault OTX</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="{% static "img/coding.png"  %}"class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Desarrollo Web</b></h5>
+        <p class="card-text">Django frontend/backend, Wordpress, Protección contra ataques, Producción, configuración y mantenimiento en instancias EC-2 de AWS</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="{% static "img/db.png" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h5 class="card-title"><b>Bases de datos</b></h5>
+        <p class="card-text">MySQL, Diseño, creación de tablas, relaciones, consultas, modificaciones, gestión de usuarios, funciones, triggers, procedimientos almacenados</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src= "{% static "img/malware.png" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+	      <h3 class="card-title"><b>Análisis de malware</b></h3>
+        <p class="card-text">Análisis del código, extracción de strings, desofuscación. Uso de herramientas, Ghuidra, REMnux, Sysinternals</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-5 bg-white"></div>
+
+
+{% endblock %}
+
+
